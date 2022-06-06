@@ -1,0 +1,25 @@
+.sizes-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizes {
+    padding: 2px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 1px;
+    cursor: pointer;
+}
+
+.size-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin: 15px 0 10px;
+}
+
+.size-name {
+    color: #999;
+}

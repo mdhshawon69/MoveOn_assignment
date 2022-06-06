@@ -1,0 +1,19 @@
+.main-container {
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+.sub-container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 991px) {
+    .sub-container {
+        width: 85%;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,42 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 30px;
+    
+}
+
+.main-image img {
+    width: 412px;
+    height: 412px;
+    border-radius: 4px;
+}
+
+.thumbs img {
+    border: 0.5px solid #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    margin-right: 3.5px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 1px;
+}
+
+.thumbs img:hover {
+    border: 2px solid #ff4747;
+}
+
+@media screen and (max-width: 991px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .thumbs img {
+        margin: 15px 0;
+    }
+}
