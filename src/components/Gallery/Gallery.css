@@ -40,3 +40,19 @@
         margin: 15px 0;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .main-image img {
+        width: 320px;
+        height: 320px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-image img {
+        width: 273px;
+        height: 273px;
+        border-radius: 4px;
+    }
+}
