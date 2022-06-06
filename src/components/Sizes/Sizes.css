@@ -23,3 +23,7 @@
 .size-name {
     color: #999;
 }
+
+.sizes:hover {
+    border: 2px solid #ff4747;
+}
